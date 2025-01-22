@@ -1,0 +1,1010 @@
+Namespace(model='beit', norm='Huber', gamma=4.0, delta=9.0, epsilon=0.01, L=3, batch_size=8, attack='fgsm', budget=0.00392156862745098)
+Only replace 12 layers with robust attention
+Files already downloaded and verified
+
+[ Test Start ]
+
+Current batch:0
+Current benign test accuracy:0.875
+Current benign test loss:0.25916269421577454
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.591238260269165
+Total benign test accuarcy:87.5
+Total adversarial test Accuarcy:12.5
+
+Current batch:10
+Current benign test accuracy:0.5
+Current benign test loss:1.371180772781372
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.7971858978271484
+Total benign test accuarcy:70.45454545454545
+Total adversarial test Accuarcy:12.5
+
+Current batch:20
+Current benign test accuracy:0.625
+Current benign test loss:1.362214207649231
+Current adversarial test accuracy:0.0
+Current adversarial test loss:4.525531768798828
+Total benign test accuarcy:73.80952380952381
+Total adversarial test Accuarcy:15.476190476190476
+
+Current batch:30
+Current benign test accuracy:0.875
+Current benign test loss:0.6757113933563232
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.861933946609497
+Total benign test accuarcy:75.0
+Total adversarial test Accuarcy:16.532258064516128
+
+Current batch:40
+Current benign test accuracy:0.75
+Current benign test loss:0.6508034467697144
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.116613388061523
+Total benign test accuarcy:75.60975609756098
+Total adversarial test Accuarcy:16.463414634146343
+
+Current batch:50
+Current benign test accuracy:0.75
+Current benign test loss:0.34315791726112366
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.158284664154053
+Total benign test accuarcy:76.22549019607843
+Total adversarial test Accuarcy:15.686274509803921
+
+Current batch:60
+Current benign test accuracy:0.75
+Current benign test loss:1.0008301734924316
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.3907229900360107
+Total benign test accuarcy:75.0
+Total adversarial test Accuarcy:14.754098360655737
+
+Current batch:70
+Current benign test accuracy:0.5
+Current benign test loss:1.8733781576156616
+Current adversarial test accuracy:0.0
+Current adversarial test loss:5.399413585662842
+Total benign test accuarcy:75.17605633802818
+Total adversarial test Accuarcy:15.140845070422536
+
+Current batch:80
+Current benign test accuracy:0.875
+Current benign test loss:0.30392858386039734
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.977724552154541
+Total benign test accuarcy:76.23456790123457
+Total adversarial test Accuarcy:15.432098765432098
+
+Current batch:90
+Current benign test accuracy:0.875
+Current benign test loss:0.5429926514625549
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.1060192584991455
+Total benign test accuarcy:76.0989010989011
+Total adversarial test Accuarcy:14.423076923076923
+
+Current batch:100
+Current benign test accuracy:1.0
+Current benign test loss:0.11525048315525055
+Current adversarial test accuracy:0.25
+Current adversarial test loss:2.8206911087036133
+Total benign test accuarcy:75.61881188118812
+Total adversarial test Accuarcy:14.603960396039604
+
+Current batch:110
+Current benign test accuracy:0.625
+Current benign test loss:1.5398465394973755
+Current adversarial test accuracy:0.25
+Current adversarial test loss:4.400999546051025
+Total benign test accuarcy:74.66216216216216
+Total adversarial test Accuarcy:14.864864864864865
+
+Current batch:120
+Current benign test accuracy:0.375
+Current benign test loss:1.5680166482925415
+Current adversarial test accuracy:0.0
+Current adversarial test loss:6.018049240112305
+Total benign test accuarcy:74.58677685950413
+Total adversarial test Accuarcy:14.979338842975206
+
+Current batch:130
+Current benign test accuracy:0.5
+Current benign test loss:1.7514578104019165
+Current adversarial test accuracy:0.25
+Current adversarial test loss:4.3973588943481445
+Total benign test accuarcy:74.90458015267176
+Total adversarial test Accuarcy:15.458015267175572
+
+Current batch:140
+Current benign test accuracy:0.875
+Current benign test loss:0.6338862776756287
+Current adversarial test accuracy:0.0
+Current adversarial test loss:4.273858547210693
+Total benign test accuarcy:75.44326241134752
+Total adversarial test Accuarcy:15.425531914893616
+
+Current batch:150
+Current benign test accuracy:0.75
+Current benign test loss:0.36337992548942566
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.9182064533233643
+Total benign test accuarcy:75.08278145695364
+Total adversarial test Accuarcy:15.314569536423841
+
+Current batch:160
+Current benign test accuracy:0.875
+Current benign test loss:0.453364759683609
+Current adversarial test accuracy:0.0
+Current adversarial test loss:5.5293073654174805
+Total benign test accuarcy:75.31055900621118
+Total adversarial test Accuarcy:15.139751552795031
+
+Current batch:170
+Current benign test accuracy:1.0
+Current benign test loss:0.054713569581508636
+Current adversarial test accuracy:0.375
+Current adversarial test loss:2.012420177459717
+Total benign test accuarcy:75.87719298245614
+Total adversarial test Accuarcy:15.789473684210526
+
+Current batch:180
+Current benign test accuracy:1.0
+Current benign test loss:0.07904629409313202
+Current adversarial test accuracy:0.375
+Current adversarial test loss:3.030181646347046
+Total benign test accuarcy:76.17403314917127
+Total adversarial test Accuarcy:15.676795580110497
+
+Current batch:190
+Current benign test accuracy:0.875
+Current benign test loss:0.47052332758903503
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.9942684173583984
+Total benign test accuarcy:76.17801047120419
+Total adversarial test Accuarcy:15.706806282722512
+
+Current batch:200
+Current benign test accuracy:0.625
+Current benign test loss:1.5777184963226318
+Current adversarial test accuracy:0.0
+Current adversarial test loss:6.316647529602051
+Total benign test accuarcy:76.18159203980099
+Total adversarial test Accuarcy:15.796019900497512
+
+Current batch:210
+Current benign test accuracy:0.625
+Current benign test loss:1.2138044834136963
+Current adversarial test accuracy:0.0
+Current adversarial test loss:5.094836235046387
+Total benign test accuarcy:76.48104265402844
+Total adversarial test Accuarcy:15.936018957345972
+
+Current batch:220
+Current benign test accuracy:0.75
+Current benign test loss:0.4577926695346832
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.1971373558044434
+Total benign test accuarcy:76.52714932126698
+Total adversarial test Accuarcy:16.063348416289593
+
+Current batch:230
+Current benign test accuracy:0.875
+Current benign test loss:0.29986661672592163
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.686469554901123
+Total benign test accuarcy:76.56926406926407
+Total adversarial test Accuarcy:16.017316017316016
+
+Current batch:240
+Current benign test accuracy:0.875
+Current benign test loss:0.5735389590263367
+Current adversarial test accuracy:0.0
+Current adversarial test loss:5.0088019371032715
+Total benign test accuarcy:76.86721991701245
+Total adversarial test Accuarcy:16.441908713692946
+
+Current batch:250
+Current benign test accuracy:0.75
+Current benign test loss:0.6352393627166748
+Current adversarial test accuracy:0.125
+Current adversarial test loss:2.9919254779815674
+Total benign test accuarcy:76.64342629482071
+Total adversarial test Accuarcy:16.284860557768923
+
+Current batch:260
+Current benign test accuracy:0.875
+Current benign test loss:0.30935901403427124
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.9788143634796143
+Total benign test accuarcy:76.53256704980843
+Total adversarial test Accuarcy:16.235632183908045
+
+Current batch:270
+Current benign test accuracy:0.625
+Current benign test loss:0.9368549585342407
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.9549102783203125
+Total benign test accuarcy:76.4760147601476
+Total adversarial test Accuarcy:16.236162361623617
+
+Current batch:280
+Current benign test accuracy:0.875
+Current benign test loss:0.31462863087654114
+Current adversarial test accuracy:0.0
+Current adversarial test loss:3.983412981033325
+Total benign test accuarcy:76.6459074733096
+Total adversarial test Accuarcy:16.459074733096084
+
+Current batch:290
+Current benign test accuracy:0.625
+Current benign test loss:0.6780664920806885
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.9894654750823975
+Total benign test accuarcy:76.15979381443299
+Total adversarial test Accuarcy:16.3659793814433
+
+Current batch:300
+Current benign test accuracy:0.625
+Current benign test loss:0.9261327385902405
+Current adversarial test accuracy:0.375
+Current adversarial test loss:4.161193370819092
+Total benign test accuarcy:76.16279069767442
+Total adversarial test Accuarcy:16.32059800664452
+
+Current batch:310
+Current benign test accuracy:0.875
+Current benign test loss:0.18952897191047668
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.385477066040039
+Total benign test accuarcy:76.12540192926045
+Total adversarial test Accuarcy:16.318327974276528
+
+Current batch:320
+Current benign test accuracy:1.0
+Current benign test loss:0.13023200631141663
+Current adversarial test accuracy:0.25
+Current adversarial test loss:2.761894941329956
+Total benign test accuarcy:76.09034267912773
+Total adversarial test Accuarcy:16.35514018691589
+
+Current batch:330
+Current benign test accuracy:0.5
+Current benign test loss:1.1420478820800781
+Current adversarial test accuracy:0.0
+Current adversarial test loss:5.720710754394531
+Total benign test accuarcy:76.01963746223565
+Total adversarial test Accuarcy:16.31419939577039
+
+Current batch:340
+Current benign test accuracy:1.0
+Current benign test loss:0.1279740184545517
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.705695629119873
+Total benign test accuarcy:76.17302052785924
+Total adversarial test Accuarcy:16.458944281524925
+
+Current batch:350
+Current benign test accuracy:0.75
+Current benign test loss:0.9027172923088074
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.3221075534820557
+Total benign test accuarcy:76.21082621082621
+Total adversarial test Accuarcy:16.346153846153847
+
+Current batch:360
+Current benign test accuracy:0.75
+Current benign test loss:0.3622263967990875
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.811126947402954
+Total benign test accuarcy:76.38504155124653
+Total adversarial test Accuarcy:16.274238227146814
+
+Current batch:370
+Current benign test accuracy:0.75
+Current benign test loss:1.05026113986969
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.801906108856201
+Total benign test accuarcy:76.41509433962264
+Total adversarial test Accuarcy:16.442048517520217
+
+Current batch:380
+Current benign test accuracy:0.875
+Current benign test loss:0.4584183990955353
+Current adversarial test accuracy:0.375
+Current adversarial test loss:3.4783990383148193
+Total benign test accuarcy:76.44356955380577
+Total adversarial test Accuarcy:16.53543307086614
+
+Current batch:390
+Current benign test accuracy:1.0
+Current benign test loss:0.060825563967227936
+Current adversarial test accuracy:0.0
+Current adversarial test loss:3.5122432708740234
+Total benign test accuarcy:76.50255754475704
+Total adversarial test Accuarcy:16.528132992327365
+
+Current batch:400
+Current benign test accuracy:0.5
+Current benign test loss:1.1051406860351562
+Current adversarial test accuracy:0.5
+Current adversarial test loss:2.908604145050049
+Total benign test accuarcy:76.30922693266832
+Total adversarial test Accuarcy:16.458852867830423
+
+Current batch:410
+Current benign test accuracy:0.875
+Current benign test loss:0.3754660189151764
+Current adversarial test accuracy:0.0
+Current adversarial test loss:5.244135856628418
+Total benign test accuarcy:76.4294403892944
+Total adversarial test Accuarcy:16.453771289537713
+
+Current batch:420
+Current benign test accuracy:0.75
+Current benign test loss:0.5117302536964417
+Current adversarial test accuracy:0.0
+Current adversarial test loss:6.3415632247924805
+Total benign test accuarcy:76.45486935866984
+Total adversarial test Accuarcy:16.419239904988125
+
+Current batch:430
+Current benign test accuracy:0.875
+Current benign test loss:0.5292149186134338
+Current adversarial test accuracy:0.25
+Current adversarial test loss:2.2606565952301025
+Total benign test accuarcy:76.42111368909512
+Total adversarial test Accuarcy:16.61832946635731
+
+Current batch:440
+Current benign test accuracy:0.75
+Current benign test loss:0.8489533066749573
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.583686351776123
+Total benign test accuarcy:76.55895691609977
+Total adversarial test Accuarcy:16.865079365079364
+
+Current batch:450
+Current benign test accuracy:0.75
+Current benign test loss:0.8811616897583008
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.839420795440674
+Total benign test accuarcy:76.5521064301552
+Total adversarial test Accuarcy:16.879157427937916
+
+Current batch:460
+Current benign test accuracy:0.875
+Current benign test loss:0.6352766752243042
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.4285738468170166
+Total benign test accuarcy:76.54555314533623
+Total adversarial test Accuarcy:16.72993492407809
+
+Current batch:470
+Current benign test accuracy:0.75
+Current benign test loss:0.8506245613098145
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.822258949279785
+Total benign test accuarcy:76.40658174097665
+Total adversarial test Accuarcy:16.772823779193207
+
+Current batch:480
+Current benign test accuracy:0.75
+Current benign test loss:0.30472344160079956
+Current adversarial test accuracy:0.25
+Current adversarial test loss:2.2928617000579834
+Total benign test accuarcy:76.2993762993763
+Total adversarial test Accuarcy:16.761954261954262
+
+Current batch:490
+Current benign test accuracy:0.5
+Current benign test loss:0.8119183778762817
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.629006385803223
+Total benign test accuarcy:76.22199592668025
+Total adversarial test Accuarcy:16.59877800407332
+
+Current batch:500
+Current benign test accuracy:0.75
+Current benign test loss:0.903680682182312
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.910604953765869
+Total benign test accuarcy:76.29740518962076
+Total adversarial test Accuarcy:16.59181636726547
+
+Current batch:510
+Current benign test accuracy:0.75
+Current benign test loss:0.49237558245658875
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.7614622116088867
+Total benign test accuarcy:76.44324853228963
+Total adversarial test Accuarcy:16.58512720156556
+
+Current batch:520
+Current benign test accuracy:0.875
+Current benign test loss:0.4540748596191406
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.567671775817871
+Total benign test accuarcy:76.41554702495202
+Total adversarial test Accuarcy:16.57869481765835
+
+Current batch:530
+Current benign test accuracy:0.875
+Current benign test loss:0.2836529314517975
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.5543415546417236
+Total benign test accuarcy:76.55367231638418
+Total adversarial test Accuarcy:16.713747645951035
+
+Current batch:540
+Current benign test accuracy:0.75
+Current benign test loss:0.8470690846443176
+Current adversarial test accuracy:0.375
+Current adversarial test loss:4.060743808746338
+Total benign test accuarcy:76.6173752310536
+Total adversarial test Accuarcy:16.84380776340111
+
+Current batch:550
+Current benign test accuracy:0.625
+Current benign test loss:0.8732839822769165
+Current adversarial test accuracy:0.0
+Current adversarial test loss:4.5287909507751465
+Total benign test accuarcy:76.65607985480943
+Total adversarial test Accuarcy:16.878402903811253
+
+Current batch:560
+Current benign test accuracy:0.875
+Current benign test loss:0.8394109010696411
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.721088409423828
+Total benign test accuarcy:76.7825311942959
+Total adversarial test Accuarcy:16.93404634581105
+
+Current batch:570
+Current benign test accuracy:0.75
+Current benign test loss:0.5133974552154541
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.196404457092285
+Total benign test accuarcy:76.79509632224168
+Total adversarial test Accuarcy:17.03152364273205
+
+Current batch:580
+Current benign test accuracy:0.75
+Current benign test loss:0.5946879982948303
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.9581456184387207
+Total benign test accuarcy:76.82874354561102
+Total adversarial test Accuarcy:16.99655765920826
+
+Current batch:590
+Current benign test accuracy:0.5
+Current benign test loss:1.4610549211502075
+Current adversarial test accuracy:0.25
+Current adversarial test loss:4.339056491851807
+Total benign test accuarcy:76.81895093062606
+Total adversarial test Accuarcy:16.983925549915398
+
+Current batch:600
+Current benign test accuracy:0.625
+Current benign test loss:0.6422405242919922
+Current adversarial test accuracy:0.25
+Current adversarial test loss:4.2401604652404785
+Total benign test accuarcy:76.58069883527455
+Total adversarial test Accuarcy:16.930116472545755
+
+Current batch:610
+Current benign test accuracy:1.0
+Current benign test loss:0.24047501385211945
+Current adversarial test accuracy:0.0
+Current adversarial test loss:3.2984232902526855
+Total benign test accuarcy:76.67757774140753
+Total adversarial test Accuarcy:16.857610474631752
+
+Current batch:620
+Current benign test accuracy:0.5
+Current benign test loss:2.091836929321289
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.514990329742432
+Total benign test accuarcy:76.59017713365539
+Total adversarial test Accuarcy:16.82769726247987
+
+Current batch:630
+Current benign test accuracy:1.0
+Current benign test loss:0.30501291155815125
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.9802229404449463
+Total benign test accuarcy:76.62440570522979
+Total adversarial test Accuarcy:16.93740095087163
+
+Current batch:640
+Current benign test accuracy:0.875
+Current benign test loss:0.767370879650116
+Current adversarial test accuracy:0.25
+Current adversarial test loss:4.033530235290527
+Total benign test accuarcy:76.5600624024961
+Total adversarial test Accuarcy:16.829173166926676
+
+Current batch:650
+Current benign test accuracy:0.875
+Current benign test loss:0.3424340784549713
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.172612428665161
+Total benign test accuarcy:76.53609831029186
+Total adversarial test Accuarcy:16.897081413210447
+
+Current batch:660
+Current benign test accuracy:0.875
+Current benign test loss:0.38740310072898865
+Current adversarial test accuracy:0.25
+Current adversarial test loss:2.905484676361084
+Total benign test accuarcy:76.49394856278366
+Total adversarial test Accuarcy:16.906202723146748
+
+Current batch:670
+Current benign test accuracy:0.625
+Current benign test loss:1.4801286458969116
+Current adversarial test accuracy:0.125
+Current adversarial test loss:5.320402145385742
+Total benign test accuarcy:76.56482861400895
+Total adversarial test Accuarcy:16.933681073025337
+
+Current batch:680
+Current benign test accuracy:0.625
+Current benign test loss:0.778567910194397
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.8278555870056152
+Total benign test accuarcy:76.48678414096916
+Total adversarial test Accuarcy:16.795154185022028
+
+Current batch:690
+Current benign test accuracy:0.75
+Current benign test loss:1.0683735609054565
+Current adversarial test accuracy:0.25
+Current adversarial test loss:4.176660060882568
+Total benign test accuarcy:76.55571635311144
+Total adversarial test Accuarcy:16.751085383502172
+
+Current batch:700
+Current benign test accuracy:0.625
+Current benign test loss:1.7111952304840088
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.266941070556641
+Total benign test accuarcy:76.53352353780313
+Total adversarial test Accuarcy:16.672610556348076
+
+Current batch:710
+Current benign test accuracy:0.75
+Current benign test loss:0.8383651971817017
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.900644540786743
+Total benign test accuarcy:76.56469760900141
+Total adversarial test Accuarcy:16.59634317862166
+
+Current batch:720
+Current benign test accuracy:0.75
+Current benign test loss:0.5072590112686157
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.121809005737305
+Total benign test accuarcy:76.54299583911235
+Total adversarial test Accuarcy:16.574202496532592
+
+Current batch:730
+Current benign test accuracy:0.75
+Current benign test loss:0.47023579478263855
+Current adversarial test accuracy:0.0
+Current adversarial test loss:3.713334560394287
+Total benign test accuarcy:76.57318741450068
+Total adversarial test Accuarcy:16.450068399452803
+
+Current batch:740
+Current benign test accuracy:0.875
+Current benign test loss:0.5607201457023621
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.8690855503082275
+Total benign test accuarcy:76.51821862348179
+Total adversarial test Accuarcy:16.51484480431849
+
+Current batch:750
+Current benign test accuracy:1.0
+Current benign test loss:0.0738254263997078
+Current adversarial test accuracy:0.375
+Current adversarial test loss:2.7543089389801025
+Total benign test accuarcy:76.56458055925432
+Total adversarial test Accuarcy:16.544607190412783
+
+Current batch:760
+Current benign test accuracy:0.875
+Current benign test loss:0.22947923839092255
+Current adversarial test accuracy:0.25
+Current adversarial test loss:4.226648807525635
+Total benign test accuarcy:76.60972404730617
+Total adversarial test Accuarcy:16.57358738501971
+
+Current batch:770
+Current benign test accuracy:0.5
+Current benign test loss:1.2707164287567139
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.831830024719238
+Total benign test accuarcy:76.621271076524
+Total adversarial test Accuarcy:16.618028534370946
+
+Current batch:780
+Current benign test accuracy:0.75
+Current benign test loss:1.0318870544433594
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.563739061355591
+Total benign test accuarcy:76.61651728553137
+Total adversarial test Accuarcy:16.677336747759284
+
+Current batch:790
+Current benign test accuracy:0.875
+Current benign test loss:0.52472323179245
+Current adversarial test accuracy:0.0
+Current adversarial test loss:3.655392646789551
+Total benign test accuarcy:76.69089759797724
+Total adversarial test Accuarcy:16.577117572692792
+
+Current batch:800
+Current benign test accuracy:0.75
+Current benign test loss:0.7856373190879822
+Current adversarial test accuracy:0.25
+Current adversarial test loss:4.014359474182129
+Total benign test accuarcy:76.6541822721598
+Total adversarial test Accuarcy:16.557428214731587
+
+Current batch:810
+Current benign test accuracy:0.75
+Current benign test loss:0.3093574345111847
+Current adversarial test accuracy:0.375
+Current adversarial test loss:3.2639918327331543
+Total benign test accuarcy:76.71085080147965
+Total adversarial test Accuarcy:16.56905055487053
+
+Current batch:820
+Current benign test accuracy:0.875
+Current benign test loss:0.311067670583725
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.429590702056885
+Total benign test accuarcy:76.7204628501827
+Total adversarial test Accuarcy:16.54993909866017
+
+Current batch:830
+Current benign test accuracy:0.875
+Current benign test loss:0.49216556549072266
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.264290809631348
+Total benign test accuarcy:76.72984356197352
+Total adversarial test Accuarcy:16.57641395908544
+
+Current batch:840
+Current benign test accuracy:0.875
+Current benign test loss:0.38617822527885437
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.3954243659973145
+Total benign test accuarcy:76.8281807372176
+Total adversarial test Accuarcy:16.5576694411415
+
+Current batch:850
+Current benign test accuracy:0.875
+Current benign test loss:0.2591787874698639
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.542817115783691
+Total benign test accuarcy:76.8213866039953
+Total adversarial test Accuarcy:16.554054054054053
+
+Current batch:860
+Current benign test accuracy:0.75
+Current benign test loss:0.320787638425827
+Current adversarial test accuracy:0.375
+Current adversarial test loss:2.8112263679504395
+Total benign test accuarcy:76.7711962833914
+Total adversarial test Accuarcy:16.536004645760745
+
+Current batch:870
+Current benign test accuracy:0.625
+Current benign test loss:0.8325475454330444
+Current adversarial test accuracy:0.0
+Current adversarial test loss:4.910637378692627
+Total benign test accuarcy:76.70780711825488
+Total adversarial test Accuarcy:16.446613088404135
+
+Current batch:880
+Current benign test accuracy:0.75
+Current benign test loss:1.3652572631835938
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.5382490158081055
+Total benign test accuarcy:76.68842224744608
+Total adversarial test Accuarcy:16.472758229284903
+
+Current batch:890
+Current benign test accuracy:0.875
+Current benign test loss:0.14323736727237701
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.4139459133148193
+Total benign test accuarcy:76.73961840628508
+Total adversarial test Accuarcy:16.456228956228955
+
+Current batch:900
+Current benign test accuracy:0.875
+Current benign test loss:0.26937615871429443
+Current adversarial test accuracy:0.25
+Current adversarial test loss:2.7282750606536865
+Total benign test accuarcy:76.78967813540511
+Total adversarial test Accuarcy:16.481687014428413
+
+Current batch:910
+Current benign test accuracy:0.75
+Current benign test loss:0.5360129475593567
+Current adversarial test accuracy:0.0
+Current adversarial test loss:5.093202590942383
+Total benign test accuarcy:76.8111964873765
+Total adversarial test Accuarcy:16.520307354555435
+
+Current batch:920
+Current benign test accuracy:1.0
+Current benign test loss:0.0780683308839798
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.3879666328430176
+Total benign test accuarcy:76.91368078175896
+Total adversarial test Accuarcy:16.530944625407166
+
+Current batch:930
+Current benign test accuracy:0.375
+Current benign test loss:0.886361300945282
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.379650592803955
+Total benign test accuarcy:76.85284640171858
+Total adversarial test Accuarcy:16.433941997851772
+
+Current batch:940
+Current benign test accuracy:1.0
+Current benign test loss:0.19268395006656647
+Current adversarial test accuracy:0.25
+Current adversarial test loss:2.971867322921753
+Total benign test accuarcy:76.9394261424017
+Total adversarial test Accuarcy:16.405419766206165
+
+Current batch:950
+Current benign test accuracy:0.875
+Current benign test loss:0.35876229405403137
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.5498125553131104
+Total benign test accuarcy:77.01104100946372
+Total adversarial test Accuarcy:16.482649842271293
+
+Current batch:960
+Current benign test accuracy:0.5
+Current benign test loss:2.3106985092163086
+Current adversarial test accuracy:0.375
+Current adversarial test loss:4.295365333557129
+Total benign test accuarcy:77.00312174817898
+Total adversarial test Accuarcy:16.480228928199793
+
+Current batch:970
+Current benign test accuracy:0.75
+Current benign test loss:1.2399054765701294
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.8603620529174805
+Total benign test accuarcy:76.99536560247168
+Total adversarial test Accuarcy:16.503604531410918
+
+Current batch:980
+Current benign test accuracy:0.75
+Current benign test loss:0.43718698620796204
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.42180871963501
+Total benign test accuarcy:76.96228338430173
+Total adversarial test Accuarcy:16.526503567787973
+
+Current batch:990
+Current benign test accuracy:0.75
+Current benign test loss:0.5781831741333008
+Current adversarial test accuracy:0.0
+Current adversarial test loss:3.9311232566833496
+Total benign test accuarcy:76.9803229061554
+Total adversarial test Accuarcy:16.523713420787082
+
+Current batch:1000
+Current benign test accuracy:0.875
+Current benign test loss:0.35695093870162964
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.124343395233154
+Total benign test accuarcy:76.98551448551449
+Total adversarial test Accuarcy:16.52097902097902
+
+Current batch:1010
+Current benign test accuracy:0.875
+Current benign test loss:0.24418285489082336
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.1587839126586914
+Total benign test accuarcy:77.02769535113748
+Total adversarial test Accuarcy:16.48120672601385
+
+Current batch:1020
+Current benign test accuracy:0.75
+Current benign test loss:0.8989895582199097
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.632270812988281
+Total benign test accuarcy:76.98334965719883
+Total adversarial test Accuarcy:16.45445641527914
+
+Current batch:1030
+Current benign test accuracy:0.75
+Current benign test loss:0.7255848050117493
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.115434169769287
+Total benign test accuarcy:76.96411251212415
+Total adversarial test Accuarcy:16.428225024248302
+
+Current batch:1040
+Current benign test accuracy:0.375
+Current benign test loss:1.7480878829956055
+Current adversarial test accuracy:0.0
+Current adversarial test loss:5.333212375640869
+Total benign test accuarcy:76.8131604226705
+Total adversarial test Accuarcy:16.354466858789625
+
+Current batch:1050
+Current benign test accuracy:0.875
+Current benign test loss:0.5867500901222229
+Current adversarial test accuracy:0.375
+Current adversarial test loss:3.0710060596466064
+Total benign test accuarcy:76.83158896289248
+Total adversarial test Accuarcy:16.3534728829686
+
+Current batch:1060
+Current benign test accuracy:0.875
+Current benign test loss:0.6091787815093994
+Current adversarial test accuracy:0.375
+Current adversarial test loss:3.307162046432495
+Total benign test accuarcy:76.86145146088596
+Total adversarial test Accuarcy:16.364278982092365
+
+Current batch:1070
+Current benign test accuracy:0.75
+Current benign test loss:0.4223187565803528
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.913538932800293
+Total benign test accuarcy:76.82072829131653
+Total adversarial test Accuarcy:16.328197945845005
+
+Current batch:1080
+Current benign test accuracy:0.75
+Current benign test loss:0.7342150211334229
+Current adversarial test accuracy:0.0
+Current adversarial test loss:4.8044633865356445
+Total benign test accuarcy:76.80388529139685
+Total adversarial test Accuarcy:16.28122109158187
+
+Current batch:1090
+Current benign test accuracy:0.375
+Current benign test loss:2.4125685691833496
+Current adversarial test accuracy:0.0
+Current adversarial test loss:6.153693199157715
+Total benign test accuarcy:76.78735105407883
+Total adversarial test Accuarcy:16.292392300641612
+
+Current batch:1100
+Current benign test accuracy:0.75
+Current benign test loss:0.8644036650657654
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.9545228481292725
+Total benign test accuarcy:76.77111716621253
+Total adversarial test Accuarcy:16.26930063578565
+
+Current batch:1110
+Current benign test accuracy:1.0
+Current benign test loss:0.0630556046962738
+Current adversarial test accuracy:0.25
+Current adversarial test loss:2.1710870265960693
+Total benign test accuarcy:76.8114311431143
+Total adversarial test Accuarcy:16.26912691269127
+
+Current batch:1120
+Current benign test accuracy:1.0
+Current benign test loss:0.09080033004283905
+Current adversarial test accuracy:0.375
+Current adversarial test loss:2.4045681953430176
+Total benign test accuarcy:76.8064228367529
+Total adversarial test Accuarcy:16.302408563782336
+
+Current batch:1130
+Current benign test accuracy:0.75
+Current benign test loss:0.451363205909729
+Current adversarial test accuracy:0.5
+Current adversarial test loss:2.708766222000122
+Total benign test accuarcy:76.80150309460655
+Total adversarial test Accuarcy:16.301945181255526
+
+Current batch:1140
+Current benign test accuracy:0.875
+Current benign test loss:0.23684345185756683
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.9204657077789307
+Total benign test accuarcy:76.79666958808063
+Total adversarial test Accuarcy:16.334355828220858
+
+Current batch:1150
+Current benign test accuracy:0.875
+Current benign test loss:0.3740624785423279
+Current adversarial test accuracy:0.0
+Current adversarial test loss:4.795508861541748
+Total benign test accuarcy:76.8136403127715
+Total adversarial test Accuarcy:16.355343179843615
+
+Current batch:1160
+Current benign test accuracy:0.75
+Current benign test loss:0.7030063271522522
+Current adversarial test accuracy:0.0
+Current adversarial test loss:4.5400896072387695
+Total benign test accuarcy:76.76571920757968
+Total adversarial test Accuarcy:16.300602928509907
+
+Current batch:1170
+Current benign test accuracy:1.0
+Current benign test loss:0.3071734607219696
+Current adversarial test accuracy:0.0
+Current adversarial test loss:4.722135543823242
+Total benign test accuarcy:76.77198975234842
+Total adversarial test Accuarcy:16.25747224594364
+
+Current batch:1180
+Current benign test accuracy:0.75
+Current benign test loss:0.42138972878456116
+Current adversarial test accuracy:0.0
+Current adversarial test loss:3.694099187850952
+Total benign test accuarcy:76.7887383573243
+Total adversarial test Accuarcy:16.21507197290432
+
+Current batch:1190
+Current benign test accuracy:0.75
+Current benign test loss:0.48041608929634094
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.943488121032715
+Total benign test accuarcy:76.7737195633921
+Total adversarial test Accuarcy:16.21536523929471
+
+Current batch:1200
+Current benign test accuracy:0.625
+Current benign test loss:1.234705924987793
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.463110446929932
+Total benign test accuarcy:76.81099084096586
+Total adversarial test Accuarcy:16.25728559533722
+
+Current batch:1210
+Current benign test accuracy:0.875
+Current benign test loss:0.25953710079193115
+Current adversarial test accuracy:0.125
+Current adversarial test loss:3.989610195159912
+Total benign test accuarcy:76.86829066886871
+Total adversarial test Accuarcy:16.339801816680428
+
+Current batch:1220
+Current benign test accuracy:0.75
+Current benign test loss:0.5394945740699768
+Current adversarial test accuracy:0.25
+Current adversarial test loss:3.154803514480591
+Total benign test accuarcy:76.92465192465193
+Total adversarial test Accuarcy:16.308353808353807
+
+Current batch:1230
+Current benign test accuracy:1.0
+Current benign test loss:0.10724685341119766
+Current adversarial test accuracy:0.125
+Current adversarial test loss:4.259282112121582
+Total benign test accuarcy:76.9191714053615
+Total adversarial test Accuarcy:16.297725426482536
+
+Current batch:1240
+Current benign test accuracy:0.5
+Current benign test loss:1.2827913761138916
+Current adversarial test accuracy:0.25
+Current adversarial test loss:4.532100677490234
+Total benign test accuarcy:76.89363416599517
+Total adversarial test Accuarcy:16.267123287671232
+Total benign test accuarcy:76.82
+Total adversarial test Accuarcy:16.31
+Total benign test loss:887.2091665249318
+Total adversarial test loss:4898.543341994286
+-----end------
