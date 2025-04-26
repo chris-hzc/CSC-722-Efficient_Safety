@@ -1,1 +1,0 @@
-Namespace(model='convit', norm='L2', gamma=4.0, delta=9.0, epsilon=0.01, L=3, batch_size=8, attack='fgsm', budget=0.00392156862745098)
