@@ -9,7 +9,7 @@ This repository provides the code, data, and results for the paper: Efficient Sa
 
 
 <p float="left">
-  <img src="./figures/results.png" width="100%" />
+  <img src="./figures/method.png" width="100%" />
 </p>
 
 
