@@ -3,13 +3,13 @@
 
 This repository provides the code, data, and results for the paper: Efficient Safeguarding of Large-Scale Models
 
-<p float="left">
+<!-- <p float="left">
   <img src="./figures/method.png" width="100%" />
-</p>
+</p> -->
 
 
 <p float="left">
-  <img src="./figures/method.png" width="100%" />
+  <img src="./figures/method.png" width="60%" />
 </p>
 
 
